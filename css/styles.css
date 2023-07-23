@@ -197,7 +197,7 @@ body {
 }
 
 .hero-btn {
-    
+
     min-width: 169px;
     justify-content: center;
     height: 56px;
@@ -231,7 +231,7 @@ body {
 .feature-container {
     display: flex;
     width: 0 auto;
-   
+
 }
 
 .feature-list {
@@ -247,10 +247,15 @@ body {
     width: calc((100% - 24px*3) /4);
 }
 
-.feature-item-icon{
+.feature-block {
+    width: 264px;
+    height: 112px;
+    background: var(--cloud, #F4F4FD);
+    margin-bottom: 8px;
     border-radius: 4px;
-background: var(--cloud, #F4F4FD);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-item-text {
@@ -322,9 +327,9 @@ background: var(--cloud, #F4F4FD);
     border-radius: 0px 0px 4px 4px;
 }
 
-.team-subcontainer{
+.team-subcontainer {
     padding: 32px 16px;
-    
+
 }
 
 .team-text {
