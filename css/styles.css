@@ -342,6 +342,48 @@ body {
     /* 0.32/16 */
 }
 
+/*----------------CUSTOMERS---------------*/
+
+.customers{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: var(--main-text-color);
+}
+
+.customers-title{
+    margin-bottom: 72px;
+}
+
+.customers-list{
+   
+        display: flex;
+        justify-content: center;
+            align-items: center;
+        gap: 24px;
+}
+
+.customers-item{
+width: calc((100%-24px)/6);
+    height: 88px;
+width: 100%;
+
+
+}
+
+.customers-link{
+    display: flex;
+border-radius: 4px;
+    border: 1px solid var(--lightslate, #8E8F99);
+justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+}
+
+.feature-item-icon{
+    /*display: flex;*/
+ 
+}
+
 /*-----------FOOTER------------*/
 
 .footer {
