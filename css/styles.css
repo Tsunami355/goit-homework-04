@@ -342,6 +342,25 @@ body {
     /* 0.32/16 */
 }
 
+.team-socials-list{
+display: flex;
+gap: 24px;
+}
+.team-socials-item{
+    width: 40px;
+        height: 40px;
+        background-color: #4D5AE5;
+        border-radius: 50%;
+        color: #F4F4FD;
+}
+
+.team-subcontainer-icon{
+
+ align-items: center;
+ justify-content: center;
+  display: flex;
+}
+
 /*----------------CUSTOMERS---------------*/
 
 .customers{
