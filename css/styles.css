@@ -445,18 +445,17 @@ align-items: center;
 
 .footer {
     background: var(--accent-color);
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .footer-conteiner {
     display: flex;
-    align-items: baseline;
+    align-items: baseline;  
 }
 
 .footer-logo-container {
     display: block;
     margin-right: 120px;
-   
 }
 
 .footer-logo {
